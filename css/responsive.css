@@ -1,0 +1,277 @@
+@media (max-width: 1500px) {
+	 
+}
+
+@media screen and (max-width: 1200px) {
+	 .wrap {width: 688px;}
+	 
+	 /*header*/
+	 header .bts {display: none;}
+	 header .choose-btn {margin-top: 14px;}
+	 header .choose-btn a {float: none; display: block;}
+	 header .choose-btn .adr {padding-left: 60px; display: block; font-size: 14px;}
+	 header .choose-btn a::before {margin-top: -14px;}
+	 
+	 /*wrapper*/
+	 .section.started .wrap {padding-left: 30px;}
+	 .started-slider .started-img-1 {
+		 background: url(../images/768.png) no-repeat center 0;
+		 background-size: cover;
+	 }
+	 
+	 /*about*/
+	 .section.about .about_menu a {margin: 0;}
+	 .section.about .about_slider {padding-left: 0; padding-right: 0;}
+	 .section.about .about_item .desc {padding-bottom: 0px;}
+	 .section.about .navs {z-index: 2; top: 368px; width: 150px;}
+	 .section.about .navs .next, .section.about .navs .prev {vertical-align: middle;}
+	 .section.about .navs .num {width: 100px; margin: 0; display: inline-block; vertical-align: middle;}
+	 
+	 /*infra*/
+	 .section.infra .infra-items .infra-item .image {margin-left: 0px!important; margin-right: 0px!important; width: 45%; text-align: center;}
+	 .section.infra .infra-items .infra-item .image svg {max-width: 90%;}
+	 .section.infra .infra-items .infra-item .desc {width: 42%!important;}
+	 .section.infra .infra-items .infra-item .desc br {display: none;}
+	 .section.infra .infra-items .infra-item .desc h3:before {top: 50%!important; margin-top: -22px;}
+	 .section.infra .infra-items .infra-item.parking .desc h3:before {}
+	 .section.infra .infra-items .infra-item.komm .desc h3:before {margin-top: -24.5px;}
+	 .section.infra .infra-items .infra-item.park .desc h3:before {margin-top: -17.5px;}
+	 
+	 /*map*/
+	 .section.map .infra_menu {margin-bottom: 0px;}
+	 .section.map .infra_menu .item {margin-bottom: 30px;}
+	 
+	 /*news*/
+	 .section.news {}
+	 .section.news .wrap {padding: 0 0 20px 0;}
+	 .section.news .lt {width: 300px;}
+	 .section.news .rt {width: 370px;}
+	 .section.news .preview {float: none; width: 100%;}
+	 .section.news .preview a img {height: 278px;}
+	 .section.news .gallery {width: 390px; float: left;}
+	 .section.news .gallery a {display: inline-block; width: 178px; margin: 0 12px 12px 0; overflow: hidden;}
+	 .section.news .gallery a img {height: 116px;}
+	 .section.news .bts .btn {width: 178px;}
+	 
+	 /*offices*/
+	 .section.offices .item.lt .image {padding: 0;}
+	 .section.offices .item {padding: 0 25px;}
+	 .section.offices .item .image {text-align: center;}
+	 .section.offices .item .image svg {max-width: 80%;}
+	 .section.offices .item .name span {display: block;}
+	 
+	 /*flats*/
+	 .section.flats .areas {height: auto; background: #fff;}
+	 .section.flats .area_plans .plans {    transform: scale(0.7); left: 50%; margin-left: -519px;}
+	 .section.flats .back {top: 52px; padding-left: 40px; margin-left: -344px;}
+	 .section.flats .back::after {position: absolute; left: 0px; top: 2px; margin-left: 0px;}
+	 .section.flats .area_sections {padding-bottom: 30px; box-sizing: initial;}
+	 .section.flats .area_sections .back {top: auto; right: auto; bottom: 0px; left: 50%; margin-left: -102px;}
+	 .section.flats .area_plans .plans_floor {float: right;}
+	 
+	 .section.flats .area_flats .flat_info {padding-top: 10px;}
+	 .section.flats .area_flats .lt {width: 50%;}
+	 .section.flats .area_flats .plan_detail {transform: scale(0.7); top: 54px; margin-top: 0px!important;}
+	 .section.flats .area_flats .flat_detail.flat_detail_11 .plan_detail, .section.flats .area_flats .flat_detail.flat_detail_7 .plan_detail {left: -72px;}
+	 .section.flats .area_flats .rt {width: 48%;}
+	 .section.flats .area_flats .rt {padding-top: 30px;}
+	 .section.flats .area_flats .flat_info .item .icon {width: 68px; height: 68px;}
+	 .section.flats .area_flats .flats-navs {top: 75%; left: 50%; margin: 0 0 0 -100px; width: 200px;}
+	 .section.flats .area_flats .flats-navs .next, .section.flats .area_flats .flats-navs .prev {transform: rotate(-90deg); vertical-align: middle;}
+	 .section.flats .area_flats .flats-navs .num {display: inline-block; vertical-align: middle; width: 120px;}
+	 .section.flats .area_flats .flat_order {width: 330px; right: 0px; top: 145px;} 
+	 .section.flats .area_plans .plans_bts .btn {transform: scale(1.3);}
+}
+
+@media screen and (max-width: 720px) {
+	 .wrap {width: 280px;}
+	 .bts .btn.green, .bts .btn {font-size: 9px; height: 36px; line-height: 36px; padding: 0 25px;}
+	 
+	 /*wrapper*/
+	 .wrapper_p {padding-top: 10px;}
+	 .wrapper_inner {margin-top: 495px;}
+	 .section .title {font-size: 31px;}
+	 .section .title::after, .section .title::before {margin: 17px 12px 0 0;}
+	 .section .title::after {margin: 17px 0 0 12px;}
+	 .section .subtitle {font-size: 13px; margin-bottom: 20px; padding: 0 5%;}
+	 .section.news .title, .section.offices .title {line-height: 36px; padding: 0 30px;}
+	 .section.news .title::before, .section.news .title::after, .section.offices .title::before, .section.offices .title::after {position: absolute; top: 20px;}
+	 .section.news .title::before, .section.offices .title::before {left: 10px;}
+	 .section.news .title::after, .section.offices .title::after {right: 10px;}
+	 
+	 
+	 /*header*/
+	 header {}
+	 header .logo-center {display: none;}
+	 header .choose-btn {margin: 0; padding: 2px 0 0 0; height: 70px; line-height: 70px;}
+	 header .choose-btn a {margin-right: 0; font-size: 18px; padding-left: 52px;}
+	 header .choose-btn a::before {transform: scale(0.8); margin-left: -5px;}
+	 header .choose-btn .adr {display: none;}
+	 header .choose-btn a::before {margin-top: -26px;}
+	 header .tel {font-size: 12px; letter-spacing: 0px; margin: 17px 5px 0 0; line-height: normal;}
+	 header .tel strong {font-size: 14px;}
+	 header .tel::before {display: none;}
+	 header .menu-btn {transform: scale(0.8); margin-right: -5px;}
+	 
+	 /*main slider*/
+	 .started-slider, .section.started, .started-slider .started-img {height: 495px; text-align: center;}
+	 .section.started .wrap {padding: 0;}
+	 .section.started .htitle {padding-top: 158px; font-size: 50px; line-height: 54px; text-align: center; margin-bottom: 15px;}
+	 .section.started .hsub_title {font-size: 13px; margin-bottom: 15px;}
+	 .section.started .bts {text-align: center;}
+
+	 /*About*/
+	 .section.about .subtitle {margin-bottom: 30px;}
+	 .section.about .about_menu {display: none;}
+	 .section.about .about_slider {padding-top: 0;}
+	 .section.about .about_item .image {float: none; width: auto; margin-bottom: 20px;}
+	 .section.about .about_item .desc {margin: 0; float: none; width: auto;}
+	 .section.about .about_item .desc h3 {font-size: 21px; padding-left: 24px;}
+	 .section.about .about_item .desc p {font-size: 13px; line-height: 22px;}
+	 .section.about .about_item .desc .bts {text-align: center;}
+	 .section.about .about_item .image svg {max-width: 76%; max-height: 175px;}
+	 .section.about .navs {top: 179px; right: 0px; left: auto; width: 86px; text-align: center;}
+	 .section.about .navs .num {font-size: 14px;}
+	 .section.about .navs .num strong {font-size: 39px;}
+	 .section.about .navs .next, .section.about .navs .prev {position: absolute; transform: rotate(-90deg);}
+	 .section.about .navs .prev {left: -190px; top: -100px;}
+	 .section.about .navs .next {right: 0px; top: -100px;}
+	 
+	 /*Infra*/
+	 .section.infra {padding-top: 70px;}
+	 .section.infra .infra-items {background: #fff; position: relative; z-index: 3; padding: 0;}
+	 .section.infra .infra-items .infra-item {margin: 0 0 20px 0!important;}
+	 .section.infra .infra-items .infra-item .num {display: none;}
+	 .section.infra .infra-items .infra-item .image {height: auto!important; width: auto!important; float: none!important; margin: 0!important;}
+	 .section.infra .infra-items .infra-item.parking .image {margin-top: -20px!important;}
+	 .section.infra .infra-items .infra-item .image svg {margin: 0 0 15px 0!important; transform: scale(0.8);}
+	 .section.infra .infra-items .infra-item .image span {float: right; font-size: 14px; margin: -3px 0 0 0!important; position: absolute; right: 0px; line-height: 26px;}
+	 .section.infra .infra-items .infra-item .desc {width: auto!important; margin: 0!important; float: none!important; text-align: left!important;}
+	 .section.infra .infra-items .infra-item .desc h3 {font-size: 21px; margin: 0 0 15px 0;}
+	 .section.infra .infra-items .infra-item .desc h3:before {transform: scale(0.7); transform-origin: top center; top: 50%; margin-top: -15.4px;}
+	 .section.infra .infra-items .infra-item.dvor .desc h3:before {left: 7px;}
+	 .section.infra .infra-items .infra-item.parking .desc h3:before {left: 2px;}
+	 .section.infra .infra-items .infra-item.komm .desc h3:before {left: 48px;}
+	 .section.infra .infra-items .infra-item.park .desc h3:before {right: auto; left: 5px; top: 50%; margin-top: -12.25px;}
+	 .section.infra .infra-items .infra-item .desc p {font-size: 13px; line-height: 22px;}
+	 .section.infra .infra-items .infra-item.komm .image span {max-width: 150px; text-align: left; padding: 0; margin: -10px 0 0 0!important; line-height: normal;}
+	 
+
+	 /*flats*/
+	 .section.flats {padding-top: 70px;}
+	 .section.flats .area_menu {margin-bottom: 60px;}
+	 .section.flats .area_menu a {width: 70px;}
+	 .section.flats .area_menu a .num {width: 48px; height: 48px; line-height: 44px; font-size: 20px; margin-bottom: 7px;}
+	 .section.flats .area_menu a .label {font-size: 12px;}
+	 .section.flats .area_menu a .num::before {top: 16px; left: -10px; width: 6px; height: 13px;}
+	 .section.flats .area_menu a .num::after {top: 16px; right: -14px; width: 6px; height: 13px;}
+	 .section.flats .area_menu a.active .num::after, .section.flats .area_menu a.active .num::before {}
+	 .section.flats .areas {height: auto; margin-bottom: 0px;}
+	 .section.flats .area {display: none; position: relative;}
+	 .section.flats .area.active {display: block;}
+	 .section.flats .area_sections {height: 317px;}
+	 .section.flats .area_sections .area_map {transform: scale(0.45); top: -87px;}
+	 
+	 .section.flats .area_plans {height: 528px;}
+	 .section.flats .area_plans .plans_txt {display: none;}
+	 .section.flats .area_plans .plans {transform: rotate(-90deg) scale(0.45); top: 40px;}
+	 .section.flats .area_plans .plans {margin-left: -555px;}
+	 .section.flats .area_plans .params{padding: 0;}
+	 .section.flats .area_plans .plans_floor {width: 100px; padding: 0; margin: 0; right: 0; text-align: center; top: 170px;}
+	 .section.flats .area_plans .plans_floor .next, .section.flats .area_plans .plans_floor .prev {position: relative; left: 0; top: auto; transform: rotate(90deg); margin: 0; display: inline-block;}
+	 .section.flats .area_plans .plans_floor .next {}
+	 .section.flats .area_plans .plans_floor .label {bottom: 45px;}
+	 .section.flats .area_plans .plans_floor .num {padding: 20px 0 40px 0;}
+	 .section.flats .back {top: -35px; right: auto; bottom: auto; left: 50%; margin-left: -102px;}
+	 .section.flats .area_plans .plans_bts .btn {transform: rotate(90deg) scale(1.8);}
+	 
+	 .section.flats .area_flats .flat_info .item {display: none;}
+	 .section.flats .area_flats .lt {width: auto; float: none;}
+	 .section.flats .area_flats .rt {width: auto; float: none; height: auto; padding-top: 15px;}
+	 .section.flats .area_flats .plan_detail {position: relative; top: auto; left: auto; right: auto; margin: 0!important; transform: scale(0.6); transform-origin: 0 0;}
+	 .section.flats .area_flats .h_title {font-size: 31px; text-align: center; margin-bottom: 7px;}
+	 .section.flats .area_flats .h_subtitle {font-size: 13px; text-align: center; margin-bottom: 7px;}
+	 .section.flats .area_flats .flat_info .bts {text-align: center;}
+	 .section.flats .area_flats .flats-navs {width: 80px; text-align: center; top: 100px; right: -18px; left: auto;}
+	 .section.flats .area_flats .flats-navs .next, .section.flats .area_flats .flats-navs .prev {transform: rotate(0deg);}
+	 .section.flats .area_flats .flats-navs .num {width: 100%; margin: 10px 0 20px; font-size: 14px;}
+	 .section.flats .area_flats .flats-navs .num strong {font-size: 39px;}
+	 .section.flats .area_flats .flat_order {width: 100%; top: auto; right: auto; position: relative;}
+	 .section.flats .area_flats .wrap {height: auto;}
+	 .section.flats .area_flats .flat_detail.active {position: relative;}
+	 .section.flats .area_flats[data-subarea="o"] .lt {display: none;}
+	 .section.flats .area_flats[data-subarea="o"] .rt {padding-top: 0px;}
+	 .section.flats .area_flats[data-subarea="o"] .flat_order .bts {text-align: center;}
+	 .section.flats .area_flats .plan_tabs {min-height: 0px;}
+	 .section.flats .area_flats .plan_tabs .plan_tab {position: relative; display: none;}
+	 .section.flats .area_flats .plan_tabs .plan_tab {display: none;}
+	 .section.flats .area_flats[data-subarea="p"] .plan_tabs #plan_info {display: block;}
+	 .section.flats .area_flats[data-subarea="o"] .plan_tabs #plan_order {display: block;}
+	 .section.flats .area_flats .flat_order .value input, .section.flats .area_flats .flat_order .value textarea {text-align: center;}
+	 
+	 .section.flats .area_flats .flat_detail.flat_detail_11 .plan_detail, .section.flats .area_flats .flat_detail.flat_detail_7 .plan_detail {left: 0px; transform: scale(0.45);}
+	 
+	 .section.flats .area_sections .area_map .b-area-label {transform: scale(2);}
+	 .section.flats .area_sections .area_map .b-area-tooltip {display: none!important;}
+	 
+	 .section.flats .f-group {padding-bottom: 10px;}
+	 .section.flats .area_flats .plan_bts .btn {display: none;}
+	 
+	 /*maps*/
+	 .section.map {padding-top: 70px;}
+	 .section.map .infra_menu .item {width: 92px;}
+	 .section.map .infra_menu .item .icon {width: 62px; height: 68px; background-size: 100% 100%!important;}
+	 .section.map .infra_menu .item .icon::before {background-size: 50% 50%!important; width: 62px; height: 62px;}
+	 .section.map .infra_menu .item .label {margin-top: 7px; font-size: 12px;}
+	 .section.map .infra_menu .item:nth-child(7) {display: none;}
+	 .section.map .infra_tabs {height: 306px;}
+	 .section.map .map {height: 306px;}
+	 
+	 /*news*/
+	 .section.news .lt {margin-bottom: 20px;}
+	 .section.news .lt, .section.news .rt {width: auto; float: none;}
+	 .section.news .gallery {width: 300px;}
+	 .section.news .gallery a {width: 134px;}
+	 .section.news .gallery a img {height: 96px;}
+	 .section.news .bts {text-align: center;}
+	 .section.news .bts .btn {display: inline-block; margin: 0 0 20px 0; float: none;}
+	 
+	 /*offices*/
+	 .section.offices {padding-top: 70px;}
+	 .section.offices .subtitle {padding-bottom: 20px;}
+	 .section.offices .item.lt {width: auto; float: none; margin-bottom: 30px;}
+	 .section.offices .item.rt {width: auto; float: none;}
+	 .section.offices .item .image {height: auto!important; font-size: 0px;}
+	 .section.offices .item .name {font-size: 21px;}
+	 .section.offices .item .desc {font-size: 13px; margin-bottom: 10px;}
+	 
+	 /*footer*/
+	 .footer {font-size: 12px;}
+	 .footer .lt {width: 50%; position: absolute; top: 0px; left: 0px;}
+	 .footer .rt {width: 100%;}
+	 .footer .fb-like {display: inline-block;}
+	 
+	 /*popup*/
+	 .popup_menu, .popup {width: 262px;}
+	 .popup_menu .logo {display: block;}
+	 .popup_menu li {height: 50px; font-size: 16px;}
+	 .popup_menu li a {line-height: 50px;}
+	 .popup .bts {bottom: 0px; min-height: 72px;}
+	 .popup .bts .politic {padding: 12px 20px;}
+	 .popup .close {width: 39px; height: 50px; left: -39px; margin-top: -25px;}
+	 .popup .close::before {transform: scale(0.8);}
+	 .popup_ask .h_icon {height: 110px; display: none;}
+	 .popup_ask .h_title, .popup .h_title {font-size: 31px; margin: 15px 0;}
+	 .popup .h_subtitle {font-size: 12px;}
+	 .popup_ask .h_subtitle {margin-bottom: 20px;}
+	 .popup_ask .c_form .col_2 .value {float: none!important; width: auto!important;}
+	 .popup_ask .c_form .value input, .popup_ask .c_form .value textarea {height: 50px; font-size: 12px;}
+	 .popup_ask .c_form .value textarea {padding: 13px 26px; height: 100px;}
+	 .popup_map .map {height: 340px;}
+	 .popup_map .h_subtitle {margin-bottom: 20px; display: none;}
+	 .popup_map .map {margin-bottom: 20px;}
+}
+
+@media screen and (max-height: 542px) {
+	 .popup .bts {position: relative;}
+}
